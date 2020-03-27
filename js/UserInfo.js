@@ -1,4 +1,5 @@
-class UserInfo extends Popup {
+import {Popup} from './popup';
+export class UserInfo extends Popup {
     constructor (element, form) {
       super(element);
       this.form = form;
