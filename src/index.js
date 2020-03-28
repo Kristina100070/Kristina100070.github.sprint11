@@ -1,12 +1,12 @@
 import "./style.css";
-import {serverUrl} from '../js/config'
-import {FormValidator} from '../js/FormValidator';
-import {PopupImage} from '../js/PopupImage';
-import {UserInfo} from '../js/UserInfo';
-import {Api} from '../js/API';
-import {Card} from '../js/card';
-import {CardList} from '../js/CardList';
-import {CardPopup} from '../js/CardPopup';
+import {serverUrl} from './js/config'
+import {FormValidator} from './js/FormValidator';
+import {PopupImage} from './js/PopupImage';
+import {UserInfo} from './js/UserInfo';
+import {Api} from './js/API';
+import {Card} from './js/card';
+import {CardList} from './js/CardList';
+import {CardPopup} from './js/CardPopup';
 
 const list = document.querySelector('.places-list');
 const popupCardElement = document.querySelector('.popup__card');
