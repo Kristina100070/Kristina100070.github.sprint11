@@ -52,7 +52,7 @@ function onRootClick(event){
 document.querySelector(".root").addEventListener('click', onRootClick);
 
 const api = new Api({
-  baseUrl: 'https://praktikum.tk/cohort8',
+  baseUrl: serverUrl,
   headers: {
     authorization: 'c3ab1d6f-f7de-4703-a8ca-26881c8253c8',
     'Content-Type': 'application/json'
