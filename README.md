@@ -1,6 +1,8 @@
 # Kristina100070.github.sprint11
 
-[Ссылка](https://github.com/Kristina100070/Kristina100070.github.sprint11)
+[Ссылка](https://kristina100070.github.io/Kristina100070.github.sprint11/)
+
+Сервис Mesto: интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки, а также редактировать информацию пользователя (имя, работу, аватар);
 
 В каталоге проекта вы можете запустить:
 
@@ -17,3 +19,7 @@
 - размещение проекта на сервере, в ветке gh-pages;
 
 v0.0.1 -m "my first version"
+
+Стек технологий
+
+HTML, CSS, JavaScripts, Webpack, GIT
