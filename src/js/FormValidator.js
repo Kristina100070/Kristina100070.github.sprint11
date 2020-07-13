@@ -1,4 +1,12 @@
-class FormValidator {
+const ERROR_MESSAGES = {
+  typeMismatch: 'Здесь должна быть ссылка',
+  tooShort: 'Должно быть от 2 до 30 символов',
+  tooLong: 'Должно быть от 2 до 30 символов',
+  valueMissing: 'Это обязательное поле',
+  noError: '',
+}; 
+
+export class FormValidator {
     constructor(form) {
         this.form = form;
         this.button = form.querySelector('.popup__button');
