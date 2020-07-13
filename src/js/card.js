@@ -2,11 +2,6 @@ export class Card {
   like(event) {
       event.target.classList.toggle('place-card__like-icon_liked');
   }
-  remove(event) {
-    if (event.target.classList.contains('place-card__delete-icon')) {
-      list.removeChild(event.target.closest('.place-card'));
-    }
-  }
   create(data) {
     const container = document.createElement('div');
     const template = `<div data-card-id="${data._id}" class="place-card"> 
@@ -24,7 +19,9 @@ export class Card {
     container.insertAdjacentHTML('beforeend', template);
     return container;
   }
-  
+  setLike(element) {
+    element.querySelector('.place-card__like-icon').classList.add('place-card__like-icon_liked');
+  }
   updateLikesCount(cardElement, count) {
     cardElement.querySelector('.place-card__like-sum').textContent = count;
   }
